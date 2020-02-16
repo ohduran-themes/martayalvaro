@@ -1,5 +1,12 @@
 .header {
   text-align: center;
+  /* font-family: 'Lovers Quarrel', cursive; */
+}
+
+.header-container{
+  background-image: url('./images/image1.png');
+  background-position: center top, center center;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .toast {

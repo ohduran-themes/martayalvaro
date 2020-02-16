@@ -8,6 +8,7 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import './App.css';
+import './fonts.css';
 
 const Home = () => <span>Home</span>;
 
@@ -18,7 +19,7 @@ const Users = () => <span>Users</span>;
 const App = () => (
   <MemoryRouter>
     <Container className="p-3">
-      <Jumbotron>
+      <Jumbotron className="header-container">
         <h1 className="header">Welcome To React-Bootstrap</h1>
         <h2>
           Current Page is{' '}
