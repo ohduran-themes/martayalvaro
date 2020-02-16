@@ -1,12 +1,21 @@
-.header {
+.text-align-center {
   text-align: center;
   /* font-family: 'Lovers Quarrel', cursive; */
 }
 
 .header-container{
   background-image: url('./images/image1.png');
+  height: auto;
+  background-size: cover;
   background-position: center top, center center;
   background-repeat: no-repeat, no-repeat;
+}
+
+.couple-vertical-name{
+  font-family: 'Fira Sans', sans-serif;
+}
+.couple-vertical-and{
+  font-family: 'Lovers Quarrel', cursive;
 }
 
 .toast {
