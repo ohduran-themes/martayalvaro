@@ -25,17 +25,17 @@ const App = () => (
         <Col>
           <Row className="pt-5">
             <Col>
-              <h1 className="pt-5 text-align-center couple-vertical-name">Marta</h1>
+              <h1 className="pt-5 text-center couple-vertical-name">Marta</h1>
             </Col>
           </Row>
           <Row className="">
             <Col>
-              <h1 className="pt-1 text-align-center couple-vertical-and">and</h1>
+              <h1 className="pt-1 text-center couple-vertical-and">and</h1>
             </Col>
           </Row>
           <Row className="">
             <Col>
-              <h1 className="pt-1 text-align-center couple-vertical-name">Alvaro</h1>
+              <h1 className="pt-1 text-center couple-vertical-name">Alvaro</h1>
             </Col>
           </Row>
         </Col>
