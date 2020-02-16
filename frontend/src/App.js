@@ -1,37 +1,56 @@
 import React from 'react';
-import logo from './logo.svg';
-import axios from 'axios';
+import { MemoryRouter, Switch, Route } from 'react-router-dom';
+
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import { LinkContainer } from 'react-router-bootstrap';
+
 import './App.css';
 
-function handleSubmit(event) {
-  const text = document.querySelector('#char-input').value
+const Home = () => <span>Home</span>;
 
-  axios
-    .get(`/char_count?text=${text}`).then(({data}) => {
-      document.querySelector('#char-count').textContent = `${data.count} characters!`
-    })
-    .catch(err => console.log(err))
-}
+const About = () => <span>About</span>;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <div>
-        <label htmlFor='char-input'>How many characters does</label>
-        <input id='char-input' type='text' />
-        <button onClick={handleSubmit}>have?</button>
-        <div>
-          <h3 id='char-count'> </h3>
-        </div>
-      </div>
-      </header>
-    </div>
-  );
-}
+const Users = () => <span>Users</span>;
+
+const App = () => (
+  <MemoryRouter>
+    <Container className="p-3">
+      <Jumbotron>
+        <h1 className="header">Welcome To React-Bootstrap</h1>
+        <h2>
+          Current Page is{' '}
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/users">
+              <Users />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </h2>
+        <h2>
+          Navigate to{' '}
+          <ButtonToolbar className="custom-btn-toolbar">
+            <LinkContainer to="/">
+              <Button>Home</Button>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <Button>About</Button>
+            </LinkContainer>
+            <LinkContainer to="/users">
+              <Button>Users</Button>
+            </LinkContainer>
+          </ButtonToolbar>
+        </h2>
+      </Jumbotron>
+    </Container>
+  </MemoryRouter>
+);
 
 export default App;
