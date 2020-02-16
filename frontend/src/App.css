@@ -1,3 +1,7 @@
+body{
+  font-family: 'Fira Sans';
+}
+
 .header-container{
   background-image: url('./images/image1.png');
   height: auto;
@@ -6,21 +10,13 @@
   background-repeat: no-repeat, no-repeat;
 }
 
+.font-family-elegant{
+  font-family: 'Alex Brush', cursive;
+}
+
 .couple-vertical-name{
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Dancing Script', sans-serif;
 }
 .couple-vertical-and{
   font-family: 'Lovers Quarrel', cursive;
-}
-
-.toast {
-  margin: 0 auto;
-}
-
-.custom-btn-toolbar {
-  display: inline !important;
-}
-
-.custom-btn-toolbar > .btn {
-  margin-right: 1rem;
 }
