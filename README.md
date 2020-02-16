@@ -1,5 +1,4 @@
-
-# Marta y Alvaro
+# Marta y Alvaro
 
 [![Built with Cookiecutter ReactDjango](https://img.shields.io/badge/built%20with-Cookiecutter%20ReactDjango-blue)](https://img.shields.io/badge/built%20with-Cookiecutter%20ReactDjango-blue)
 
