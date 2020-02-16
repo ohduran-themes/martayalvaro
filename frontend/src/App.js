@@ -1,8 +1,9 @@
 import React from 'react';
 import { MemoryRouter, Switch, Route } from 'react-router-dom';
 
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
@@ -21,6 +22,8 @@ const Users = () => <span>Users</span>;
 const App = () => (
   <MemoryRouter>
     <Container className="header-container">
+
+      {/* HEADER */}
       <Row className="justify-content-md-center">
         <Col>
           <Row className="pt-5">
@@ -40,6 +43,17 @@ const App = () => (
           </Row>
         </Col>
       </Row>
+
+      {/* NAVBAR */}
+      <Navbar bg="light" variant="light">
+      <LinkContainer to="/"><Navbar.Brand>Home</Navbar.Brand></LinkContainer>
+
+        <Nav className="mr-auto">
+          <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
+          <LinkContainer to="/users"><Nav.Link>Users</Nav.Link></LinkContainer>
+        </Nav>
+      </Navbar>
+
       <Row>
         <Col>
           <h2>
@@ -55,22 +69,6 @@ const App = () => (
                 <Home />
               </Route>
             </Switch>
-          </h2>
-        </Col>
-        <Col>
-          <h2>
-            Navigate to{' '}
-            <ButtonToolbar className="custom-btn-toolbar">
-              <LinkContainer to="/">
-                <Button>Home</Button>
-              </LinkContainer>
-              <LinkContainer to="/about">
-                <Button>About</Button>
-              </LinkContainer>
-              <LinkContainer to="/users">
-                <Button>Users</Button>
-              </LinkContainer>
-            </ButtonToolbar>
           </h2>
         </Col>
 
