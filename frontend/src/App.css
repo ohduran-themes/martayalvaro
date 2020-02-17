@@ -20,3 +20,7 @@ body{
 .couple-vertical-and{
   font-family: 'Lovers Quarrel', cursive;
 }
+
+.bg-light{
+  background-color: white !important;
+}
