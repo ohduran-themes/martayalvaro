@@ -1,5 +1,5 @@
 import React from 'react';
-import { MemoryRouter, Switch, Route } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container';
@@ -7,20 +7,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import image2 from './images/image2.png';
 
 import './App.css';
 import './fonts.css';
-
-const Home = () => <span>Home</span>;
-
-const About = () => <span>About</span>;
-
-const Users = () => <span>Users</span>;
 
 const App = () => (
   <MemoryRouter>
