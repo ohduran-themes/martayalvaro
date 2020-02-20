@@ -1,13 +1,43 @@
+:root{
+  --background-color: #eceff4;
+  --frame-color: #fff;
+  --shadow-color: rgba(0,0,0,0.25)
+}
+
 body{
+  background-color: var(--background-color) !important;
+  font-family: 'Fira Sans';
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+}
+
+.bg-light{
+  background-color: var(--background-color) !important;
   font-family: 'Fira Sans';
 }
 
 .header-container{
   background-image: url('./images/image1.png');
   height: auto;
-  background-size: cover;
+  background-size: 800px, auto, auto;
   background-position: center top, center center;
   background-repeat: no-repeat, no-repeat;
+}
+
+@media (min-width:544px) {
+ .header-container {
+  background-size:1200px auto,auto;
+  padding:75px 0 0 0;
+ }
+}
+@media (min-width:768px) {
+ .header-container {
+  background-size:1600px auto,auto;
+  padding:100px 0 0 0;
+ }
 }
 
 .font-family-elegant{
@@ -15,12 +45,14 @@ body{
 }
 
 .couple-vertical-name{
-  font-family: 'Dancing Script', sans-serif;
+  margin-top: 2rem;
 }
 .couple-vertical-and{
-  font-family: 'Lovers Quarrel', cursive;
 }
 
-.bg-light{
-  background-color: white !important;
+.framed-image {
+  box-sizing: border-box;
+  box-shadow: 0 1px 4px var(--shadow-color);
+  border: solid 8px var(--frame-color);
+  border-radius: 1em;
 }

@@ -10,9 +10,19 @@ import Col from 'react-bootstrap/Col';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import image2 from './images/image2.png';
+import image3 from './images/image3.jpg';
 
 import './App.css';
 import './fonts.css';
+
+function StyleAlvaro(){
+  const styleObj = {
+    marginTop: "-1em",
+  }
+  return(
+    <h1 className="pt-5 text-center couple-vertical-name" style={styleObj}>Alvaro</h1>
+  )
+}
 
 const App = () => (
   <MemoryRouter>
@@ -21,19 +31,19 @@ const App = () => (
       {/* HEADER */}
       <Row className="justify-content-md-center">
         <Col>
-          <Row className="pt-5">
+          <Row>
             <Col>
-              <h1 className="pt-5 text-center couple-vertical-name">Marta</h1>
+              <h1 className="text-center couple-vertical-name">Marta</h1>
             </Col>
           </Row>
           <Row className="">
             <Col>
-              <h1 className="pt-1 text-center font-family-elegant">&</h1>
+              <h1 className="text-center font-family-elegant">&</h1>
             </Col>
           </Row>
           <Row className="">
             <Col>
-              <h1 className="pt-1 text-center couple-vertical-name">Alvaro</h1>
+            <StyleAlvaro />
             </Col>
           </Row>
         </Col>
@@ -41,10 +51,9 @@ const App = () => (
 
       {/* NAVBAR */}
       <Container>
-        <Navbar bg="light" variant="light">
-        <LinkContainer to="/"><Navbar.Brand>Home</Navbar.Brand></LinkContainer>
-
+        <Navbar bg="light" variant="light" className="justify-content-md-center">
         <Nav>
+          <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
           <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
           <LinkContainer to="/users"><Nav.Link>Users</Nav.Link></LinkContainer>
         </Nav>
@@ -69,6 +78,14 @@ const App = () => (
           </h2>
         </Col>
       </Row> */}
+    </Container>
+    <Container>
+      <Row className="mt-2 justify-content-center">
+        <Col lg={10}>
+          <Image src={image3} className="framed-image" fluid/>
+        </Col>
+
+      </Row>
 
       <Row className="mt-3 sub-profile-container">
         <Col className="text-center">
@@ -81,7 +98,7 @@ const App = () => (
         </Col>
       </Row>
       <Row className="mt-2 justify-content-center">
-        <Image src={image2} fluid />
+        <Image src={image2} />
       </Row>
     </Container>
   </MemoryRouter>
