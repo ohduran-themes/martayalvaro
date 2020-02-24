@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "i18n-react": "^0.7.0",
     "jquery": "^3.4.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
