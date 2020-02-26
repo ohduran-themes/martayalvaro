@@ -14,6 +14,10 @@ h1{
   font-size: 72px;
 }
 
+.nav-link{
+  padding: 0 2rem 0 2rem !important;
+}
+
 .bg-light{
   background-color: var(--background-color) !important;
   font-family: 'Fira Sans';

@@ -16,15 +16,6 @@ import image3 from './images/image3.jpg';
 import './App.css';
 import './fonts.css';
 
-function StyleAlvaro(){
-  const styleObj = {
-    marginTop: "-1em",
-  }
-  return(
-    <h1 className="pt-5 text-center couple-vertical-name" style={styleObj}>Alvaro</h1>
-  )
-}
-
 
 export class App extends Component {
 
@@ -76,25 +67,28 @@ export class App extends Component {
               </Row>
               <Row className="">
                 <Col>
-                <StyleAlvaro />
+                <h1 className="pt-5 text-center couple-vertical-name" style={{marginTop: "-1em"}}>Alvaro</h1>
                 </Col>
               </Row>
             </Col>
           </Row>
-
-          {/* NAVBAR */}
-          <Container>
-            <Navbar bg="light" variant="light" className="justify-content-md-center">
-            <Nav>
-              <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-              <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
-              <LinkContainer to="/users"><Nav.Link>Users</Nav.Link></LinkContainer>
-            </Nav>
-            </Navbar>
-          </Container>
+        </Container>
+        {/* NAVBAR */}
+        <Container fluid>
+          <Navbar bg="light" variant="light" expand="md">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-md-center">
+              <Nav>
+                <LinkContainer to="/info"><Nav.Link>{t('Información')}</Nav.Link></LinkContainer>
+                <LinkContainer to="/sugerencias"><Nav.Link>{t('Sugerencias')}</Nav.Link></LinkContainer>
+                <LinkContainer to="/lista"><Nav.Link>{t('Lista de Regalos')}</Nav.Link></LinkContainer>
+                <LinkContainer to="/rsvp"><Nav.Link>{t('Reservar')}</Nav.Link></LinkContainer>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
 
         </Container>
-        <Container>
+        <Container fluid>
           <Row className="mt-2 justify-content-center">
             <Col lg={10}>
               <Image src={image3} className="framed-image" fluid/>
