@@ -1,7 +1,8 @@
 :root{
   --background-color: #eceff4;
   --frame-color: #fff;
-  --shadow-color: rgba(0,0,0,0.25)
+  --shadow-color: rgba(0,0,0,0.25);
+  --title-color: #212529;
 }
 
 body{
@@ -15,7 +16,9 @@ h1{
 }
 
 .nav-link{
-  padding: 0 2rem 0 2rem !important;
+  padding: 0 2.5rem 0 2.5rem !important;
+  font-size: 1.2rem;
+  color: var(--title-color) !important;
 }
 
 .bg-light{
