@@ -12,13 +12,15 @@ import { withTranslation } from 'react-i18next';
 import Select from 'react-select';
 import { options } from './config/options';
 import image2 from './images/image2.png';
-import image3 from './images/image3.jpg';
 
 import './App.css';
 import './fonts.css';
 
-const Home = () => <span>Home</span>;
-const Info = () => <span>Info</span>;
+import {Home} from './routes/Home';
+import {Info} from './routes/Info';
+
+// const Home = () => <span>Home</span>;
+// const Info = () => <span>Info</span>;
 const Regalos = () => <span>Regalos</span>;
 const RSVP = () => <span>Confirma</span>;
 
@@ -92,47 +94,25 @@ export class App extends Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-
-          <Row>
-            <Col>
-              <h2>Current Page is{' '}</h2>
-                <Switch>
-                  <Route path="/info">
-                    <Info />
-                  </Route>
-                  <Route path="/regalos">
-                    <Regalos />
-                  </Route>
-                  <Route path="/rsvp">
-                    <RSVP />
-                  </Route>
-                  <Route exact path="/">
-                    <Home />
-                  </Route>
-                </Switch>
-
-            </Col>
-          </Row>
-
         </Container>
-        <Container fluid>
-          <Row className="mt-2 justify-content-center">
-            <Col lg={10}>
-              <Image src={image3} className="framed-image" fluid/>
-            </Col>
 
-          </Row>
+        <Container>
 
-          <Row className="mt-3 sub-profile-container">
-            <Col className="text-center">
-            <h5>{t('Please join us for our wedding celebration on')}</h5>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="mt-3 text-center font-family-elegant">
-              <h1>{t('3rd October, 2020')}</h1>
-            </Col>
-          </Row>
+          <Switch>
+            <Route path="/info">
+              <Info t={t} lang={lang}/>
+            </Route>
+            <Route path="/regalos">
+              <Regalos />
+            </Route>
+            <Route path="/rsvp">
+              <RSVP />
+            </Route>
+            <Route exact path="/">
+              <Home t={t} lang={lang}/>
+            </Route>
+          </Switch>
+
           <Row className="mt-2 justify-content-center">
             <Image src={image2} />
           </Row>
