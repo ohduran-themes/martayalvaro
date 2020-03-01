@@ -96,17 +96,17 @@ export class App extends Component {
           </Navbar>
         </Container>
 
-        <Container>
+        <Container className="mt-2">
 
           <Switch>
-            <Route path="/info">
+            <Route exact path="/info">
               <Info t={t} lang={lang}/>
             </Route>
-            <Route path="/regalos">
-              <Regalos />
+            <Route exact path="/regalos">
+              <Regalos t={t} lang={lang}/>
             </Route>
-            <Route path="/rsvp">
-              <RSVP />
+            <Route exact path="/rsvp">
+              <RSVP t={t} lang={lang}/>
             </Route>
             <Route exact path="/">
               <Home t={t} lang={lang}/>

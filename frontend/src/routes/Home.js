@@ -22,7 +22,7 @@ export class Home extends React.Component {
 
     return (
       <React.Fragment>
-        <Row className="mt-2 justify-content-center">
+        <Row className="justify-content-center">
           <Col lg={10}>
             <Image src={image3} className="framed-image" fluid/>
           </Col>
@@ -33,7 +33,7 @@ export class Home extends React.Component {
           <h5>{this.props.t('Please join us for our wedding celebration on')}</h5>
           </Col>
         </Row>
-        
+
         <Row>
           <Col className="mt-3 text-center font-family-elegant">
             <h1>{this.props.t('3rd October, 2020')}</h1>
