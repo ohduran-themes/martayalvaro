@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Route, Switch } from "react-router";
 import { LinkContainer } from 'react-router-bootstrap';
 import { withTranslation } from 'react-i18next';
 import Select from 'react-select';
@@ -15,6 +16,11 @@ import image3 from './images/image3.jpg';
 
 import './App.css';
 import './fonts.css';
+
+const Home = () => <span>Home</span>;
+const Info = () => <span>Info</span>;
+const Regalos = () => <span>Regalos</span>;
+const RSVP = () => <span>Confirma</span>;
 
 
 export class App extends Component {
@@ -79,13 +85,34 @@ export class App extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-md-center">
               <Nav>
+                <LinkContainer to="/"><Nav.Link>{t('Home')}</Nav.Link></LinkContainer>
                 <LinkContainer to="/info"><Nav.Link>{t('Información')}</Nav.Link></LinkContainer>
-                <LinkContainer to="/sugerencias"><Nav.Link>{t('Sugerencias')}</Nav.Link></LinkContainer>
-                <LinkContainer to="/lista"><Nav.Link>{t('Lista de Regalos')}</Nav.Link></LinkContainer>
+                <LinkContainer to="/regalos"><Nav.Link>{t('Lista de Regalos')}</Nav.Link></LinkContainer>
                 <LinkContainer to="/rsvp"><Nav.Link>{t('Reservar')}</Nav.Link></LinkContainer>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Row>
+            <Col>
+              <h2>Current Page is{' '}</h2>
+                <Switch>
+                  <Route path="/info">
+                    <Info />
+                  </Route>
+                  <Route path="/regalos">
+                    <Regalos />
+                  </Route>
+                  <Route path="/rsvp">
+                    <RSVP />
+                  </Route>
+                  <Route exact path="/">
+                    <Home />
+                  </Route>
+                </Switch>
+
+            </Col>
+          </Row>
 
         </Container>
         <Container fluid>
