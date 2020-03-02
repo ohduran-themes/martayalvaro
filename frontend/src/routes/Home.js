@@ -30,13 +30,13 @@ export class Home extends React.Component {
 
         <Row className="mt-3 sub-profile-container">
           <Col className="text-center">
-          <h5>{this.props.t('Please join us for our wedding celebration on')}</h5>
+          <h5>{this.props.t('Celebra con nosotros el inicio de esta gran aventura el día')}</h5>
           </Col>
         </Row>
 
         <Row>
           <Col className="mt-3 text-center font-family-elegant">
-            <h1>{this.props.t('3rd October, 2020')}</h1>
+            <h1>{this.props.t('3 de Octubre de 2020')}</h1>
           </Col>
         </Row>
       </React.Fragment>

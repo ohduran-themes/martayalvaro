@@ -1,4 +1,5 @@
 import i18n from 'i18next';
+import detector from "i18next-browser-languagedetector";
 import { initReactI18next } from 'react-i18next';
 
 import en from './locale/en';
@@ -6,6 +7,7 @@ import es from './locale/es';
 import cat from './locale/cat';
 
 i18n
+  .use(detector)
   .use(initReactI18next)
   .init({
   resources: {

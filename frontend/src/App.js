@@ -19,8 +19,6 @@ import './fonts.css';
 import {Home} from './routes/Home';
 import {Info} from './routes/Info';
 
-// const Home = () => <span>Home</span>;
-// const Info = () => <span>Info</span>;
 const Regalos = () => <span>Regalos</span>;
 const RSVP = () => <span>Confirma</span>;
 
