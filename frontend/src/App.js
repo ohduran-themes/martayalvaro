@@ -22,7 +22,6 @@ import {Info} from './routes/Info';
 const Regalos = () => <span>Regalos</span>;
 const RSVP = () => <span>Confirma</span>;
 
-
 export class App extends Component {
 
   constructor(props) {
@@ -97,7 +96,7 @@ export class App extends Component {
         <Container className="mt-2">
 
           <Switch>
-            <Route exact path="/info">
+            <Route exact path="/">
               <Info t={t} lang={lang}/>
             </Route>
             <Route exact path="/regalos">
