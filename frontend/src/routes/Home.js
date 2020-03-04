@@ -1,16 +1,8 @@
 import React from 'react';
-import { MemoryRouter } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Route, Switch } from "react-router";
-import { LinkContainer } from 'react-router-bootstrap';
-import { withTranslation } from 'react-i18next';
-import Select from 'react-select';
-import { options } from '../config/options';
+
 import image3 from '../images/image3.jpg';
 
 import '../App.css';
