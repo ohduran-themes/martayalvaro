@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import staagnes from '../images/staagnes.jpg';
-import masdesantllei from '../images/masdesantllei.jpg';
+import masdesantllei from '../images/masdesantllei.jpeg';
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapPin } from '@fortawesome/free-solid-svg-icons'
