@@ -11,7 +11,7 @@ import GoogleMapReact from 'google-map-react';
 export class Info extends React.Component {
 
   static defaultProps = {
-    zoom: 15
+    zoom: 12
   };
 
   render() {
@@ -32,7 +32,7 @@ export class Info extends React.Component {
             <Col lg={7}>
               <Row>
                 <Col>
-                  <p className="text-justify">{this.props.t("Nos vemos a las 12.30")}</p>
+                  <p className="text-justify">{this.props.t("La ceremonia será en la iglesia de Santa Agnès de Malanyanes, en la Roca del Vallés, en torno a las 12.30")}</p>
                 </Col>
               </Row>
               <Row>
@@ -41,7 +41,7 @@ export class Info extends React.Component {
                 </Col>
               </Row>
               <Row>
-                <div style={{ height: '21vh', width: '100%' }}>
+                <div style={{ height: '25vh', width: '100%' }}>
                   <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyBdkOJUA6ibeRYJ1m2lT3p5XRlB75ePE7A' }}
                     defaultCenter={{
@@ -65,7 +65,7 @@ export class Info extends React.Component {
             <Col lg={7}>
               <Row>
                 <Col>
-                  <p className="text-justify">{this.props.t("Nos vemos a las 14.00")}</p>
+                  <p className="text-justify">{this.props.t("El aperitivo, comida y fiesta será en el Mas de Sant de Sant Lleí.")}</p>
                 </Col>
               </Row>
               <Row>
@@ -74,7 +74,7 @@ export class Info extends React.Component {
                 </Col>
               </Row>
               <Row>
-                <div style={{ height: '21vh', width: '100%' }}>
+                <div style={{ height: '25vh', width: '100%' }}>
                   <GoogleMapReact
                     bootstrapURLKeys={{ key: 'AIzaSyBdkOJUA6ibeRYJ1m2lT3p5XRlB75ePE7A' }}
                     defaultCenter={{

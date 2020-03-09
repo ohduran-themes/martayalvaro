@@ -94,7 +94,6 @@ export class App extends Component {
         </Container>
 
         <Container className="mt-2">
-
           <Switch>
             <Route exact path="/info">
               <Info t={t} lang={lang}/>
