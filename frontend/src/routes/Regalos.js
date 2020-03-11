@@ -1,21 +1,9 @@
 import React from 'react';
-import styled from 'styled-components'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Media from 'react-bootstrap/Media';
 import Card from 'react-bootstrap/Card';
 import image5 from '../images/image5.jpeg';
-
-const PayPalButton = styled.form`
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  &:hover {
-    -webkit-transform: scale(1.3);
-  	transform: scale(1.3);
-  }
-`;
 
 export class Regalos extends React.Component {
 
@@ -40,7 +28,7 @@ export class Regalos extends React.Component {
                   height={64}
                   className="mr-3 rounded-circle"
                   src={image5}
-                  alt="Image Bank Data"
+                  alt="Bank Data"
                 />
                 <Media.Body>
                   <h5>Álvaro Durán Barata y Marta Hurtado Sabate</h5>
