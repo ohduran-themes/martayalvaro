@@ -32,7 +32,7 @@ export class Info extends React.Component {
             <Col lg={7}>
               <Row>
                 <Col>
-                  <p className="text-justify">{this.props.t("La ceremonia será en la iglesia de Santa Agnès de Malanyanes, en la Roca del Vallés, en torno a las 12.30")}</p>
+                  <p className="text-justify"></p>
                 </Col>
               </Row>
               <Row>
@@ -65,7 +65,7 @@ export class Info extends React.Component {
             <Col lg={7}>
               <Row>
                 <Col>
-                  <p className="text-justify">{this.props.t("El aperitivo, comida y fiesta será en el Mas de Sant de Sant Lleí.")}</p>
+                  <p className="text-justify"></p>
                 </Col>
               </Row>
               <Row>

@@ -18,9 +18,8 @@ import './fonts.css';
 
 import {Home} from './routes/Home';
 import {Info} from './routes/Info';
-
-const Regalos = () => <span>Regalos</span>;
-const RSVP = () => <span>Confirma</span>;
+import {Regalos} from './routes/Regalos';
+import {RSVP} from './routes/RSVP';
 
 export class App extends Component {
 
@@ -95,13 +94,13 @@ export class App extends Component {
 
         <Container className="mt-2">
           <Switch>
-            <Route exact path="/info">
+            <Route path="/info">
               <Info t={t} lang={lang}/>
             </Route>
-            <Route exact path="/regalos">
+            <Route path="/">
               <Regalos t={t} lang={lang}/>
             </Route>
-            <Route exact path="/rsvp">
+            <Route path="/rsvp">
               <RSVP t={t} lang={lang}/>
             </Route>
             <Route exact path="/">
