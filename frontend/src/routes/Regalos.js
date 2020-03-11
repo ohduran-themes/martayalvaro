@@ -32,13 +32,13 @@ export class Regalos extends React.Component {
           <p>{this.props.t('pero si además queréis contribuir de alguna otra forma, podéis hacerlo de la siguiente manera')}:</p></Col>
         </Row>
         <Row className="justify-content-center">
-          <Card >
+          <Card className="shadow-sm framed-image ">
             <Card.Body>
               <Media>
                 <img
                   width={64}
                   height={64}
-                  className="mr-3"
+                  className="mr-3 rounded-circle"
                   src={image5}
                   alt="Image Bank Data"
                 />
