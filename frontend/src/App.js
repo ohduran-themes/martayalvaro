@@ -97,7 +97,7 @@ export class App extends Component {
             <Route path="/info">
               <Info t={t} lang={lang}/>
             </Route>
-            <Route path="/">
+            <Route path="/regalos">
               <Regalos t={t} lang={lang}/>
             </Route>
             <Route path="/rsvp">
