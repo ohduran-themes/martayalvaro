@@ -19,7 +19,7 @@ import './fonts.css';
 import {Home} from './routes/Home';
 import {Info} from './routes/Info';
 import {Regalos} from './routes/Regalos';
-import {RSVP} from './routes/RSVP';
+import {Confirmar} from './routes/Confirmar';
 
 export class App extends Component {
 
@@ -101,7 +101,7 @@ export class App extends Component {
               <Regalos t={t} lang={lang}/>
             </Route>
             <Route path="/rsvp">
-              <RSVP t={t} lang={lang}/>
+              <Confirmar t={t} lang={lang}/>
             </Route>
             <Route exact path="/">
               <Home t={t} lang={lang}/>
