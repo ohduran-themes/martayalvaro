@@ -7,7 +7,7 @@ import santaAgnes from '../images/staagnes.jpg'
 import masDeSantLlei from '../images/masdesantllei.jpeg'
 
 const mapStyles = {
-  width: '11rem',
+  width: '48vw',
   height: '16rem',
 };
 
@@ -44,17 +44,17 @@ export class Informacion extends React.Component{
           {/* Ceremonia */}
           <section>
             <h1 className="text-center text-xl font-bold text-teal-800">Ceremonia</h1>
-            <h2 className="mt-2 px-1 text-center">Tendrá lugar en la iglesia de<br />Santa Agnès de Malanyanes<br />A las <span className="text-teal-900 font-bold">12 del mediodía</span>.</h2>
+            <h2 className="mt-2 px-1 text-center">Tendrá lugar en la iglesia de<br className="sm:hidden" /> Santa Agnès de Malanyanes<br className="sm:hidden"  /> a las <span className="text-teal-900 font-bold">12 del mediodía</span>.</h2>
 
             <article className="grid grid-cols-2 gap-1 mt-3 mx-3 h-64" style={{
                 gridTemplateRows: "16rem 1fr"
               }}>
               <figure>
-               <img className="h-full object-cover" src={santaAgnes} alt="Santa Agnès de Malanyanes" />
+               <img className="w-full h-full object-cover" src={santaAgnes} alt="Santa Agnès de Malanyanes" />
               </figure>
 
               <aside>
-                <Map google={this.props.google} style={mapStyles}
+                <Map google={this.props.google} className="google-map" style={mapStyles}
                      zoom={12}
                      initialCenter={{lat: 41.6047438, lng: 2.353613}}>
                   <Marker
@@ -78,13 +78,13 @@ export class Informacion extends React.Component{
           {/* Banquete */}
           <section className="mt-32">
             <h1 className="text-center text-xl font-bold text-teal-800">Banquete</h1>
-            <h2 className="mt-2 px-1 text-center">Tendrá lugar en el<br />Mas de Sant Lleí<br />A las <span className="text-teal-900 font-bold">2 de la tarde</span>.</h2>
+            <h2 className="mt-2 px-1 text-center">Tendrá lugar en el<br className="sm:hidden" /> Mas de Sant Lleí<br className="sm:hidden"  /> a las <span className="text-teal-900 font-bold">2 de la tarde</span>.</h2>
 
             <article className="grid grid-cols-2 gap-1 mt-3 mx-3 h-64" style={{
                 gridTemplateRows: "16rem 1fr"
               }}>
               <figure>
-               <img className="h-full object-cover" src={masDeSantLlei} alt="Santa Agnès de Malanyanes" />
+               <img className="w-full h-full object-cover" src={masDeSantLlei} alt="Santa Agnès de Malanyanes" />
               </figure>
 
               <aside>
@@ -109,8 +109,8 @@ export class Informacion extends React.Component{
             </article>
           </section>
 
-          <section className="mt-32">
-            <p className="text-center">Os esperamos a todos para lo que será<br/>una velada fantástica</p>
+          <section className="mt-32 sm:mt-48">
+            <p className="text-center sm:text-lg">Os esperamos a todos para lo que será<br/>una velada fantástica</p>
           </section>
 
         </main>

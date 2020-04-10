@@ -12,7 +12,7 @@ export class Header extends React.Component{
         backgroundPosition: "center top, center center",
         backgroundRepeat: "no-repeat, no-repeat"
         }}>
-        <div className="pt-24 pb-4 text-header">
+        <div className="pt-24 text-header">
           <h1>
             Marta
             <br />

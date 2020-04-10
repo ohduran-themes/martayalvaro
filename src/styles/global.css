@@ -25,6 +25,12 @@
   @apply text-center text-5xl text-teal-900 font-family-dancing-script leading-tight;
 }
 
+@screen sm{
+  .text-header{
+    @apply text-6xl leading-none;
+  }
+}
+
 
 body{
   @apply bg-gray-100 font-family-fira-sans;
