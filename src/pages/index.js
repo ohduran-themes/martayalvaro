@@ -20,7 +20,7 @@ export class Home extends React.Component{
 
           {/* Hero Text */}
           <section className="mt-3">
-            <p className="p-1 text-xs text-center font-semibold">Celebra con nosotros el inicio de esta gran aventura el día</p>
+            <p className="p-1 text-xs sm:text-sm md:text-md lg:text-lg text-center font-semibold">Celebra con nosotros el inicio de esta gran aventura el día</p>
           </section>
 
           {/* Wedding Date */}
