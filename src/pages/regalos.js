@@ -5,7 +5,7 @@ import DefaultLayout from "../layouts/Default"
 
 import regalosIconDatosBancarios from '../images/regalos-icon-datos-bancarios.jpeg'
 
-export class Home extends React.Component{
+export class Regalos extends React.Component{
 
   render(){
 
@@ -41,4 +41,4 @@ export class Home extends React.Component{
   }
 }
 
-export default Home
+export default Regalos
