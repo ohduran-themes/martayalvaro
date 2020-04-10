@@ -20,15 +20,13 @@ export class Home extends React.Component{
 
           {/* Hero Text */}
           <section className="mt-3">
-            <p className="p-1 text-xs sm:text-sm md:text-md lg:text-lg text-center font-semibold">Celebra con nosotros el inicio de esta gran aventura el día</p>
+            <p className="p-1 text-sm sm:text-base md:text-lg lg:text-xl text-center font-semibold">Celebra con nosotros el inicio de esta gran aventura el día</p>
           </section>
 
           {/* Wedding Date */}
           <section className="pt-3 pb-12 text-header">
             <h1>
-              3 de Octubre
-              <br />
-              2020
+              3 de Octubre<br className="md:hidden" /> 2020
             </h1>
           </section>
         </main>
