@@ -2,39 +2,42 @@
 
 @tailwind components;
 
-
 /* Wedding Fonts */
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Dancing+Script:500|Great+Vibes|Herr+Von+Muellerhoff|Lovers+Quarrel|Monsieur+La+Doulaise|Mr+Dafoe|Mrs+Saint+Delafield|Pinyon+Script|Rouge+Script|Ruthie|Tangerine&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Alex+Brush|Dancing+Script:500|Great+Vibes|Herr+Von+Muellerhoff|Lovers+Quarrel|Monsieur+La+Doulaise|Mr+Dafoe|Mrs+Saint+Delafield|Pinyon+Script|Rouge+Script|Ruthie|Tangerine&display=swap");
 
 /* Base Fonts */
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 
-.font-family-dancing-script{
-  font-family: 'Dancing Script', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+
+.font-family-dancing-script {
+  font-family: "Dancing Script", cursive;
 }
 
-.font-family-alex-brush{
-  font-family: 'Alex Brush', cursive;
+.font-family-alex-brush {
+  font-family: "Alex Brush", cursive;
 }
 
-.font-family-fira-sans{
-  font-family: 'Fira Sans', sans-serif;
+.font-family-fira-sans {
+  font-family: "Fira Sans", sans-serif;
 }
 
-.text-header{
+.font-family-josefin-slab {
+  font-family: "Josefin Slab", sans-serif;
+}
+
+.text-header {
   @apply text-center text-5xl text-teal-900 font-family-dancing-script leading-tight;
 }
 
-@screen sm{
-  .text-header{
+@screen sm {
+  .text-header {
     @apply text-6xl leading-none;
   }
 }
 
-
-body{
-  @apply bg-gray-100 font-family-fira-sans;
+body {
+  @apply bg-gray-100 font-family-josefin-slab;
 }
-
 
 @tailwind utilities;
