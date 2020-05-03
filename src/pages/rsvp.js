@@ -2,6 +2,7 @@ import React from "react"
 
 import "../styles/global.css"
 import DefaultLayout from "../layouts/Default"
+import SectionTitle from "../components/SectionTitle"
 
 export class Home extends React.Component {
   render() {
@@ -9,10 +10,8 @@ export class Home extends React.Component {
       <DefaultLayout>
         <main className="mt-3">
           <section>
-            <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-bold text-teal-800">
-              ¡Confirma tu asistencia!
-            </h1>
-            <h2 className="w-11/12 mx-auto text-center sm:text-lg md:text-lg lg:text-xl leading-loose">
+            <SectionTitle>¡Confirma tu asistencia!</SectionTitle>
+            <h2 className="w-11/12 mx-auto text-center sm:text-lg lg:text-xl leading-loose">
               <p>
                 Necesitamos que rellenéis este formulario para saber cuántos
                 seremos, y si tenéis alguna alergia o necesidad especial para el
