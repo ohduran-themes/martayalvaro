@@ -40,14 +40,14 @@ export class NavBar extends React.Component {
               Reservar
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/playlist"
               className="p-1 md:mx-5 rounded hover:bg-teal-800 hover:text-teal-100"
             >
               PlayList
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     )
