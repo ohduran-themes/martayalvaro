@@ -29,9 +29,7 @@ export class Home extends React.Component {
           {/* Wedding Date */}
           <section className="pt-3 pb-12 text-header">
             <h1>
-              3 de Octubre
-              <br />
-              2020
+              3 de Octubre<br className="md:hidden" /> 2020
             </h1>
           </section>
           <section>
