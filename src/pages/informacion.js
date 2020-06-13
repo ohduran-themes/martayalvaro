@@ -1,5 +1,4 @@
 import React from "react"
-import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react"
 
 import "../styles/global.css"
 import DefaultLayout from "../layouts/Default"

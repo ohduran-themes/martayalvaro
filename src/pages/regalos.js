@@ -14,17 +14,16 @@ export class Regalos extends React.Component {
             {/* <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-bold text-teal-800">
               Nuestra Luna de Miel
             </h1> */}
-            <article className="px-1 mx-auto mt-5 text-center text-sm sm:text-base leading-loose">
+            <article className="px-1 mx-auto mt-5 text-center text-sm sm:text-base md:text-lg lg:text-xl leading-loose">
               <p className="">
-                Sin lugar a dudas, vuestra compañía
+                Que estes presente en el día más importante de nuestras vidas
                 <br />
-                en nuestro día más especial
-                <span className="font-semibold"> es el mejor regalo</span>.
+                <span className="font-semibold">es el mejor regalo</span>.
               </p>
               <p className="mt-2">
-                Si además queréis contribuir de alguna otra forma,
+                Si además quieres ayudarnos a empezar nuestra nueva vida juntos,
                 <br />
-                podéis hacerlo con los siguientes datos:
+                puedes hacer un donativo a nuestra cuenta común.
               </p>
             </article>
             <section
