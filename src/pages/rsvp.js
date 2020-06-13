@@ -20,6 +20,7 @@ export class Home extends React.Component {
               <p>Gracias de antemano.</p>
             </h2>
             <form
+              action="/rsvp"
               name="rsvp"
               method="POST"
               data-netlify="true"
