@@ -20,6 +20,7 @@ export class Home extends React.Component {
               <p>Gracias de antemano.</p>
             </h2>
             <form
+              netlify
               className="grid mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base"
               style={{ justifyItems: "center" }}
             >

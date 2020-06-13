@@ -32,7 +32,7 @@ export default class Informacion extends React.Component {
               Tendrá lugar en la iglesia de
               <br className="sm:hidden" /> Santa Agnès de Malanyanes
               <br className="sm:hidden" /> a las{" "}
-              <span className="text-teal-900 font-bold">12 del mediodía</span>.
+              <span className="text-teal-900 font-bold">12.30</span>.
             </h2>
           </InformacionSection>
 
