@@ -56,6 +56,7 @@ export class Home extends React.Component {
                 id="alergias"
                 placeholder="¿Tienes alguna petición para tu menú?"
               />
+              <input type="hidden" name="form-name" value="rsvp" />
 
               <button
                 id="submit"
