@@ -4,6 +4,8 @@ import "../styles/global.css"
 import DefaultLayout from "../layouts/Default"
 import SectionTitle from "../components/SectionTitle"
 
+import fayeda from "../images/fayeda.jpg"
+
 export class Home extends React.Component {
   render() {
     return (
@@ -11,7 +13,7 @@ export class Home extends React.Component {
         <main className="mt-3">
           <section>
             <SectionTitle>¡Confirma tu asistencia!</SectionTitle>
-            <h2 className="w-11/12 max-w-md mx-auto text-center sm:text-lg lg:text-xl leading-loose">
+            <h2 className="mt-2 md:mt-5 w-11/12 max-w-md mx-auto text-center sm:text-lg lg:text-xl leading-loose">
               <p>
                 Si aún no nos has confirmado tu asistencia,
                 <br />
@@ -79,6 +81,13 @@ export class Home extends React.Component {
               </div>
             </form>
           </section>
+          <figure className="antialiased">
+            <img
+              className="w-2/3 md:w-1/2 mx-auto my-5 object-cover object-bottom shadow-xl rounded-lg"
+              src={fayeda}
+              alt="Marta & Álvaro"
+            />
+          </figure>
         </main>
       </DefaultLayout>
     )
