@@ -28,10 +28,13 @@ export default class Informacion extends React.Component {
           >
             <SectionTitle>Ceremonia</SectionTitle>
             <h2 className="mt-2 px-1 text-center">
+              Todo empezará a las 12.30 en la iglesia de Santa Agnés de
+              Malanyanes en la que nos daremos el "Sí, quiero".
+              {/*               
               Tendrá lugar en la iglesia de
               <br className="sm:hidden" /> Santa Agnès de Malanyanes
               <br className="sm:hidden" /> a las{" "}
-              <span className="text-teal-900 font-bold">12.30</span>.
+              <span className="text-teal-900 font-bold">12.30</span>. */}
             </h2>
           </InformacionSection>
 
@@ -53,10 +56,17 @@ export default class Informacion extends React.Component {
           >
             <SectionTitle>Convite</SectionTitle>
             <h2 className="mt-2 px-1 text-center">
-              Tendrá lugar en el
+              Acto seguido, iremos a celebrarlo por todo lo alto en el Mas de
+              Sant Lleí.
+            </h2>
+            <h2 className="mt-2 px-1 text-center">
+              Allí disfrutaremos de una gran fiesta con nuestra familia y
+              amigos.
+              {/*               
+              Una vez seamos marido y mujer, tendrá lugar en el
               <br className="sm:hidden" /> Mas de Sant Lleí,
               <br className="sm:hidden" /> a las{" "}
-              <span className="text-teal-900 font-bold">2 de la tarde</span>.
+              <span className="text-teal-900 font-bold">2 de la tarde</span>. */}
             </h2>
           </InformacionSection>
 

@@ -18,13 +18,12 @@ export class Home extends React.Component {
                 <span className="font-semibold">¡este es el momento!</span>
               </p>
               <p className="mt-1">
-                Completa este formulario con tus datos y te incluiremos en una
-                newsletter en la que daremos avisos, subiremos fotos y te
-                mantendremos informado.
+                Completa este formulario con tus datos y te mantendremos
+                informado.
               </p>
               <p className="mt-1">
-                Además, si tienes alguna alergia especial, nos encargaremos de
-                tener un menú especial para ti.
+                Además, si tienes alguna alergia, nos encargaremos de tener un
+                menú específico para ti.
               </p>
               <p>¡Muchas gracias!</p>
             </h2>

@@ -21,9 +21,9 @@ export class Regalos extends React.Component {
                 <span className="font-semibold">es el mejor regalo</span>.
               </p>
               <p className="mt-2">
-                Si además quieres ayudarnos a empezar nuestra nueva vida juntos,
+                Si además quieres ayudarnos a que nuestra luna de miel
                 <br />
-                puedes hacer un donativo a nuestra cuenta común.
+                sea inolvidable, podéis hacerlo con estos datos:
               </p>
             </article>
             <section

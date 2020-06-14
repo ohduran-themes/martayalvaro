@@ -27,14 +27,14 @@ export class Home extends React.Component {
           </section>
 
           {/* Wedding Date */}
-          <section className="pt-3 pb-12 text-header">
+          <section className="pt-3 pb-4 text-header">
             <h1>
               3 de Octubre
               <br className="md:hidden" /> 2020
             </h1>
           </section>
           <section>
-            <h2 className="text-center text-xs sm:text-sm md:text-md lg:text-lg text-center font-semibold">
+            <h2 className="text-center text-sm sm:text-base md:text-md lg:text-lg text-center font-semibold">
               Porque toda aventura empieza con un SÍ.
             </h2>
           </section>
