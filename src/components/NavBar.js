@@ -7,7 +7,7 @@ export class NavBar extends React.Component {
   render() {
     return (
       <nav className="mx-1 mb-5 sm:mb-6 md:mb-8 mt-4 sm:mt-6">
-        <ul className="flex justify-around md:justify-center px-2 text-center text-base sm:text-lg md:text-md text-teal-800 font-black">
+        <ul className="flex justify-around md:justify-center px-2 text-center text-sm sm:text-base md:text-lg text-teal-800 font-black">
           <li>
             <Link
               to="/"
