@@ -3,7 +3,7 @@ import React from "react"
 import "../styles/global.css"
 import DefaultLayout from "../layouts/Default"
 
-import regalosIconDatosBancarios from "../images/regalos-icon-datos-bancarios.jpeg"
+import regalosIconDatosBancarios from "../images/regalos-icon-datos-bancarios.png"
 
 export class Regalos extends React.Component {
   render() {
@@ -41,7 +41,7 @@ export class Regalos extends React.Component {
               />
 
               <p className="col-start-2 row-start-1 text-xs sm:text-sm md:text-base lg:text-lg text-teal-100">
-                Marta Hurtado Sabate y Álvaro Durán Barata
+                Marta Hurtado Sabaté y Álvaro Durán Barata
               </p>
               <p className="col-start-2 row-start-2 text-xs sm:text-sm md:text-base lg:text-lg text-white font-semibold">
                 ES56 2100 0813 6702 0099 8515

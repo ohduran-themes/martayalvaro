@@ -28,7 +28,7 @@ export default class Informacion extends React.Component {
           >
             <SectionTitle>Ceremonia</SectionTitle>
             <h2 className="mt-2 px-1 text-center">
-              Todo empezará a las 12.30 en la iglesia de Santa Agnés de
+              Todo empezará a las 12.30 en la iglesia de Santa Agnès de
               Malanyanes en la que nos daremos el "Sí, quiero".
               {/*               
               Tendrá lugar en la iglesia de

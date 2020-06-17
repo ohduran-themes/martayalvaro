@@ -13,21 +13,22 @@ export class Home extends React.Component {
         <main className="mt-3">
           <section>
             <SectionTitle>¡Confirma tu asistencia!</SectionTitle>
-            <h2 className="mt-2 md:mt-5 w-11/12 max-w-md mx-auto text-center sm:text-lg lg:text-xl leading-loose">
-              <p>
+            <h2 className="mt-2 md:mt-5 w-11/12 max-w-md mx-auto sm:text-lg lg:text-xl leading-loose">
+              <p className="text-center">
                 Si aún no nos has confirmado tu asistencia,
                 <br />
                 <span className="font-semibold">¡este es el momento!</span>
               </p>
               <p className="mt-1">
-                Completa este formulario con tus datos y te mantendremos
-                informado.
+                Completa este formulario y te incluiremos en la newsletter,
+                donde iremos informando de horarios y mandaremos alguna que otra
+                foto.
               </p>
               <p className="mt-1">
-                Además, si tienes alguna alergia, nos encargaremos de tener un
-                menú específico para ti.
+                Además, si tienes alguna alergia, nos aseguraremos de que tengas
+                un menú específico.
               </p>
-              <p>¡Muchas gracias!</p>
+              <p className="mt-1 text-center">¡Muchas gracias!</p>
             </h2>
             <form
               action="/rsvp"
