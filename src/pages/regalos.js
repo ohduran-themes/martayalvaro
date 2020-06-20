@@ -3,7 +3,7 @@ import React from "react"
 import "../styles/global.css"
 import DefaultLayout from "../layouts/Default"
 
-import regalosIconDatosBancarios from "../images/regalos-icon-datos-bancarios.png"
+import regalosIconDatosBancarios from "../images/regalos-icon-datos-bancarios.jpeg"
 
 export class Regalos extends React.Component {
   render() {
@@ -27,7 +27,7 @@ export class Regalos extends React.Component {
               </p>
             </article>
             <section
-              className="mt-5 mb-6 mx-auto w-10/12 md:w-2/3 px-1 py-3 grid grid-rows-3 rounded-lg bg-teal-800 shadow-lg md:shadow-xl font-family-fira-sans"
+              className="mt-5 mb-6 mx-auto w-10/12 sm:w-3/4 md:w-2/3 p-2 sm:flex sm:justify-around rounded-lg bg-teal-800 shadow-lg md:shadow-xl font-family-fira-sans"
               style={{
                 gridTemplateCols: "auto 1fr",
                 alignItems: "center",
@@ -35,20 +35,17 @@ export class Regalos extends React.Component {
             >
               <img
                 src={regalosIconDatosBancarios}
-                className="col-start-1 row-span-3 h-12 sm:h-20 md:h-24 lg:h-32 rounded-full outline-none"
+                className="mx-auto sm:ml-3 sm:ml-5 h-32 object-cover sm:h-40 md:h-48 lg:h-56 rounded-full outline-none"
                 style={{ justifySelf: "center" }}
                 alt="Nosotros siendo nosotros"
               />
-
-              <p className="col-start-2 row-start-1 text-xs sm:text-sm md:text-base lg:text-lg text-teal-100">
-                Marta Hurtado Sabaté y Álvaro Durán Barata
-              </p>
-              <p className="col-start-2 row-start-2 text-xs sm:text-sm md:text-base lg:text-lg text-white font-semibold">
-                ES56 2100 0813 6702 0099 8515
-              </p>
-              <p className="col-start-2 row-start-3 text-xs sm:text-sm md:text-base lg:text-lg text-teal-100">
-                CaixaBank, S.A.
-              </p>
+              <div className="mx-auto text-center sm:text-left sm:mx-3 sm:mr-5 text-xs sm:text-sm md:text-base lg:text-lg text-teal-100">
+                <p>Marta Hurtado Sabaté y Álvaro Durán Barata</p>
+                <p className="text-white font-semibold">
+                  ES56 2100 0813 6702 0099 8515
+                </p>
+                <p>CaixaBank, S.A.</p>
+              </div>
             </section>
           </section>
         </main>
