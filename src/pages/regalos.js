@@ -10,7 +10,7 @@ export class Regalos extends React.Component {
     return (
       <DefaultLayout>
         <main className="mt-3">
-          <section>
+          <section className="mx-auto w-10/12 sm:w-3/4 md:w-2/3 lg:w-7/12 max-w-2xl">
             {/* <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-bold text-teal-800">
               Nuestra Luna de Miel
             </h1> */}
@@ -27,7 +27,7 @@ export class Regalos extends React.Component {
               </p>
             </article>
             <section
-              className="mt-5 mb-6 mx-auto w-10/12 sm:w-3/4 md:w-2/3 p-2 sm:flex sm:justify-around rounded-lg bg-teal-800 shadow-lg md:shadow-xl font-family-fira-sans"
+              className="mt-5 mb-6 mx-auto w-11/12 sm:w-full p-2 sm:flex sm:justify-around rounded-lg bg-teal-800 shadow-lg md:shadow-xl font-family-fira-sans"
               style={{
                 gridTemplateCols: "auto 1fr",
                 alignItems: "center",
