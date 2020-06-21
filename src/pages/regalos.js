@@ -16,7 +16,7 @@ export class Regalos extends React.Component {
             </h1> */}
             <article className="px-1 mx-auto mt-5 text-center text-sm sm:text-base md:text-lg lg:text-xl leading-loose">
               <p className="">
-                Que estes presente en el día más importante de nuestras vidas
+                Que estés presente en el día más importante de nuestras vidas
                 <br />
                 <span className="font-semibold">es el mejor regalo</span>.
               </p>
