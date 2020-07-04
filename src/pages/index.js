@@ -1,5 +1,5 @@
 import React from "react"
-import { useTranslation, withTranslation, Trans } from "react-i18next"
+import { useTranslation } from "react-i18next"
 
 import "../styles/global.css"
 import DefaultLayout from "../layouts/Default"
@@ -30,13 +30,13 @@ const Home = () => {
         {/* Wedding Date */}
         <section className="pt-3 pb-4 text-header">
           <h1>
-            3 de Octubre
+            {t("3 de Octubre")}
             <br className="md:hidden" /> 2020
           </h1>
         </section>
         <section>
           <h2 className="text-center text-sm sm:text-base md:text-md lg:text-lg font-semibold">
-            Porque toda aventura empieza con un SÍ.
+            {t("Porque toda aventura empieza con un SÍ.")}
           </h2>
         </section>
       </main>
