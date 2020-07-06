@@ -13,12 +13,12 @@ const RSVP = () => {
     <DefaultLayout>
       <main className="mt-3">
         <section>
-          <SectionTitle>¡{t("Confirma tu asistencia")}!</SectionTitle>
+          <SectionTitle>{t("Confirma tu asistencia")}</SectionTitle>
           <h2 className="mt-2 md:mt-5 w-11/12 max-w-md mx-auto sm:text-lg lg:text-xl leading-loose">
             <p className="text-center">
               {t("Si aún no nos has confirmado tu asistencia,")}
               <br />
-              <span className="font-semibold">¡{t("este es el momento")}!</span>
+              <span className="font-semibold">{t("este es el momento")}</span>
             </p>
             <p className="mt-1">
               {t(
@@ -32,7 +32,7 @@ const RSVP = () => {
               )}
               .
             </p>
-            <p className="mt-1 text-center">¡{t("Muchas gracias")}!</p>
+            <p className="mt-1 text-center">{t("Muchas gracias")}</p>
           </h2>
           <form
             action="/rsvp"
