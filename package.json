@@ -20,7 +20,6 @@
     "google-maps-react": "^2.0.2",
     "i18next": "^19.5.4",
     "i18next-browser-languagedetector": "^5.0.0",
-    "i18next-http-backend": "^1.0.16",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-i18next": "^11.7.0"
