@@ -22,13 +22,15 @@ const RSVP = () => {
             </p>
             <p className="mt-1">
               {t(
-                "Completa este formulario y te incluiremos en la newsletter, donde iremos informando de horarios y mandaremos alguna que otra foto."
+                "Completa este formulario y te incluiremos en la newsletter, donde iremos informando de horarios y mandaremos alguna que otra foto"
               )}
+              .
             </p>
             <p className="mt-1">
               {t(
-                "Además, si tienes alguna alergia, nos aseguraremos de que tengas un menú específico."
+                "Además, si tienes alguna alergia, nos aseguraremos de que tengas un menú específico"
               )}
+              .
             </p>
             <p className="mt-1 text-center">¡{t("Muchas gracias")}!</p>
           </h2>

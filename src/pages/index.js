@@ -36,7 +36,7 @@ const Home = () => {
         </section>
         <section>
           <h2 className="text-center text-sm sm:text-base md:text-md lg:text-lg font-semibold">
-            {t("Porque toda aventura empieza con un SÍ.")}
+            {t("Porque toda aventura empieza con un SÍ")}.
           </h2>
         </section>
       </main>

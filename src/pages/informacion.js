@@ -29,8 +29,9 @@ const Informacion = () => {
           <SectionTitle>{t("Ceremonia")}</SectionTitle>
           <h2 className="mt-2 px-1 text-center">
             {t(
-              'Todo empezará a las 12.30 en la iglesia de Santa Agnès de Malanyanes en la que nos daremos el "Sí, quiero".'
+              "Todo empezará a las 12 y media en la iglesia de Santa Agnès de Malanyanes en la que nos daremos el Sí Quiero"
             )}
+            .
           </h2>
         </InformacionSection>
 
@@ -53,13 +54,15 @@ const Informacion = () => {
           <SectionTitle>{t("Convite")}</SectionTitle>
           <h2 className="mt-2 px-1 text-center">
             {t(
-              "Acto seguido, iremos a celebrarlo por todo lo alto en el Mas de Sant Lleí."
+              "Acto seguido, iremos a celebrarlo por todo lo alto en el Mas de Sant Lleí"
             )}
+            .
           </h2>
           <h2 className="mt-2 px-1 text-center">
             {t(
-              "Allí disfrutaremos de una gran fiesta con nuestra familia y amigos."
+              "Allí disfrutaremos de una gran fiesta con nuestra familia y amigos"
             )}
+            .
           </h2>
         </InformacionSection>
 
@@ -67,7 +70,7 @@ const Informacion = () => {
           <p className="text-center sm:text-lg">
             {t("Os esperamos a todos para lo que será")}
             <br />
-            {t("una velada fantástica.")}
+            {t("una velada fantástica")}.
           </p>
         </section>
       </main>

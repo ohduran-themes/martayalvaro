@@ -1,15 +1,15 @@
 import React from "react"
-import { useTranslation } from "react-i18next"
+// import { useTranslation } from "react-i18next"
 
 import "../styles/global.css"
 import footer_decoration_image from "../images/footer-decoration-branch.png"
 
 const Footer = () => {
-  const { i18n } = useTranslation()
+  // const { i18n } = useTranslation()
 
-  const changeLanguage = lng => {
-    i18n.changeLanguage(lng)
-  }
+  // const changeLanguage = lng => {
+  //   i18n.changeLanguage(lng)
+  // }
   return (
     <footer className="mt-3">
       {/* <div className="flex w-20 mx-auto justify-around">
