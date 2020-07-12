@@ -18,21 +18,21 @@ const RSVP = () => {
             <p className="text-center">
               {t("Si aún no nos has confirmado tu asistencia,")}
               <br />
-              <span className="font-semibold">{t("este es el momento")}</span>
+              <span className="font-semibold">{t("este es el momento")}!</span>
             </p>
-            <p className="mt-1">
+            <p className="mt-3">
               {t(
                 "Completa este formulario y te incluiremos en la newsletter, donde iremos informando de horarios y mandaremos alguna que otra foto"
               )}
               .
             </p>
-            <p className="mt-1">
+            <p className="mt-3">
               {t(
                 "Además, si tienes alguna alergia, nos aseguraremos de que tengas un menú específico"
               )}
               .
             </p>
-            <p className="mt-1 text-center">{t("Muchas gracias")}</p>
+            <p className="mt-3 text-center">{t("Muchas gracias")}!</p>
           </h2>
           <form
             action="/rsvp"

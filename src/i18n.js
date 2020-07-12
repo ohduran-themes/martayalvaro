@@ -13,7 +13,7 @@ const resources = {
   es: {
     translation: localeES,
   },
-  cat: {
+  ca: {
     translation: localeCAT,
   },
 }

@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import { useTranslation } from "react-i18next"
+import DropDownIdioma from "./DropDownIdioma"
 
 import "../styles/global.css"
 
 const NavBar = () => {
   const { t } = useTranslation()
+
   return (
     <nav className="mx-1 mb-5 sm:mb-6 md:mb-8 mt-4 sm:mt-6">
       <ul className="flex justify-around md:justify-center px-2 text-center text-sm sm:text-base md:text-lg text-teal-800 font-black">
@@ -40,6 +42,9 @@ const NavBar = () => {
           >
             {t("Reservar")}
           </Link>
+        </li>
+        <li>
+          <DropDownIdioma />
         </li>
       </ul>
     </nav>
