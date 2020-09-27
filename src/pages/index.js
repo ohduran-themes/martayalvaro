@@ -30,8 +30,8 @@ const Home = () => {
         {/* Wedding Date */}
         <section className="pt-3 pb-4 text-header">
           <h1>
-            {t("3 de Octubre")}
-            <br className="md:hidden" /> 2020
+            {t("20 de Junio")}
+            <br className="md:hidden" /> 2021
           </h1>
         </section>
         <section>

@@ -29,7 +29,7 @@ const Informacion = () => {
           <SectionTitle>{t("Ceremonia")}</SectionTitle>
           <h2 className="mt-2 px-1 text-center">
             {t(
-              "Todo empezará a las 12 y media en la iglesia de Santa Agnès de Malanyanes en la que nos daremos el Sí Quiero"
+              "Todo empezará a la 1 y media en la iglesia de Santa Agnès de Malanyanes en la que nos daremos el Sí Quiero"
             )}
             .
           </h2>
