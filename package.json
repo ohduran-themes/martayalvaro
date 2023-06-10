@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "gatsby": "^2.23.21",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-postcss": "^2.2.1",
     "google-maps-react": "^2.0.2",
     "i18next": "^19.5.4",
